@@ -4,7 +4,7 @@ import numpy as np
 import pandas
 import string
 
-file="ipan31.csv"
+file="ip31.csv"
 wordlist=""
 data = pandas.read_csv(file)
 reviews = data['Content']
